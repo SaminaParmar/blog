@@ -8,6 +8,6 @@ RUN npm install
 # 4. Copy souce code
 COPY . .
 # 5. Expose pot (adjust based on you app)
-EXPOSE 3000
+EXPOSE 3001
 # 6. Command to un you app
 CMD ["node", "app.js"]
